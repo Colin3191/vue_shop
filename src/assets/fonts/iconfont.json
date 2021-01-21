@@ -1,0 +1,23 @@
+{
+  "id": "2342076",
+  "name": "vue_shop",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17663306",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "19314974",
+      "name": "密 码",
+      "font_class": "mima",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    }
+  ]
+}

@@ -17,7 +17,7 @@
         <el-form-item prop="username">
           <el-input
             v-model="loginForm.username"
-            prefix-icon="iconfont icon-zhanghao"
+            prefix-icon="iconfont icon-user"
           ></el-input>
         </el-form-item>
         <!-- 密码 -->
@@ -25,7 +25,7 @@
           <el-input
             type="password"
             v-model="loginForm.password"
-            prefix-icon="iconfont icon-mima"
+            prefix-icon="iconfont icon-3702mima"
           ></el-input>
         </el-form-item>
         <!-- 按钮 -->
@@ -69,7 +69,7 @@ export default {
       this.$refs.loginFormRef.validate(async vaild => {
         if (!vaild) return
         const { data: res } = await this.$http.post('login', this.loginForm)
-        console.log(res)
+        // console.log(res)
         if (res.meta.status !== 200) return this.$message.error('登陆失败')
         this.$message.success('登陆成功')
         window.sessionStorage.setItem('token', res.data.token)

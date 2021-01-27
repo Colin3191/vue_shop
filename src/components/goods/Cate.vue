@@ -331,7 +331,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .tree-table {
   margin-top: 15px;
 }

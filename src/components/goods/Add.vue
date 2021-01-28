@@ -90,7 +90,6 @@
               :action="uploadURL"
               :on-preview="handlePreview"
               :on-remove="handleRemove"
-              :file-list="fileList"
               list-type="picture"
               :headers="headersObj"
               :on-success="handleSuccess"
